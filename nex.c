@@ -11,7 +11,7 @@ int edity = 0; int editp = 0; /* viewport y & file position */
 #define Height  16
 #define Columns 32 /* 3 chars: "00 " */
 #define ScreenFill Height*Columns
-#define version "nex version 0.0.0, https://Modula.dev"
+#define version "nex version 0.0.0, https://BloodRose.org"
 
 void printCommand(char *keys, char *command) {
     int len = strlen(keys)+strlen(command);
